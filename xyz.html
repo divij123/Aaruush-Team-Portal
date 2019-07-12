@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.button {
+    background-color: #bbb; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+.button5 {border-radius: 50%;}
+</style>
+</head>
+<body>
+
+<div style="text-align:center">
+<button class="button button5" onclick="colorChange()" id="c1"></button>
+</div>
+<script>
+function colorChange(){
+var x = document.getElementById('c1');
+x.style.backgroundColor = "#4CAF50";
+}
+
+</script>
+</body>
+</html>
